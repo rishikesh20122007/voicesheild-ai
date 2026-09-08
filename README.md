@@ -8,10 +8,10 @@ A project based on smart india hackathon problem statement.
 
 1st-run backend first in a terminal- 
 **cd C:\Users\Administrator\Desktop\voiceshield-ai\backend
-venv\Scripts\activate                             // use this according to your file hierarchy
+venv\Scripts\activate                            
 uvicorn app.main:app --port 8000**
 
 
 2nd-in a another terminal run frontend- 
-cd C:\Users\Administrator\Desktop\voiceshield-ai\frontend                                                   // use this according to your file hierarchy****
-npm run dev
+**cd C:\Users\Administrator\Desktop\voiceshield-ai\frontend                                                  
+npm run dev**
