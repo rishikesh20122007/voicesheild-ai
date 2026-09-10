@@ -72,7 +72,7 @@ async def analyze_audio(
 
         try:
             detector = get_voice_detector()
-            human_prob, ai_prob = detector.predict(features)
+            human_prob, ai_prob = detector.predict(audio, sr, features)
         except VoiceDetectionError as exc:
             raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=str(exc))
 
